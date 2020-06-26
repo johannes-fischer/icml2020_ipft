@@ -1,0 +1,32 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)
+
+Execute  'luatex --credits'  for credits and version details.
+
+There is NO warranty. Redistribution of this software is covered by
+the terms of the GNU General Public License, version 2 or (at your option)
+any later version. For more information about these matters, see the file
+named COPYING and the LuaTeX source.
+
+Copyright 2015 Taco Hoekwater, the LuaTeX Team.
+
+Das hat nicht funktioniert, bitte nochmal probieren.
+Das hat nicht funktioniert, bitte nochmal probieren.
+sudo: 3 Fehlversuche bei der Passwort-Eingabe
+┌ Warning: Unable to run `which pdf2svg`. pdf2svg is required for visualizing LaserTag.
+└ @ Main ~/JuliaExperiments/dev/LaserTag/deps/build.jl:19
+[ Info: Attempting to install pdf2svg with apt-get
+[ Info: Running `sudo apt-get install pdf2svg`
+ERROR: LoadError: failed process: Process(`sudo apt-get install pdf2svg`, ProcessExited(1)) [1]
+Stacktrace:
+ [1] error(::String, ::Base.Process, ::String, ::Int64, ::String) at ./error.jl:42
+ [2] pipeline_error at ./process.jl:705 [inlined]
+ [3] #run#504(::Bool, ::Function, ::Cmd) at ./process.jl:663
+ [4] run(::Cmd) at ./process.jl:661
+ [5] top-level scope at logging.jl:309
+ [6] top-level scope at /home/fischer/JuliaExperiments/dev/LaserTag/deps/build.jl:19
+ [7] include at ./boot.jl:317 [inlined]
+ [8] include_relative(::Module, ::String) at ./loading.jl:1044
+ [9] include(::Module, ::String) at ./sysimg.jl:29
+ [10] include(::String) at ./client.jl:392
+ [11] top-level scope at none:0
+in expression starting at /home/fischer/JuliaExperiments/dev/LaserTag/deps/build.jl:16

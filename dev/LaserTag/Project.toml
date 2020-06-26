@@ -1,0 +1,28 @@
+name = "LaserTag"
+uuid = "041f53e1-e4f8-54ec-814d-e9e995aa38d4"
+repo = "https://github.com/zsunberg/LaserTag.jl"
+version = "0.1.1"
+
+[deps]
+AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+POMDPSimulators = "e0d0a172-29c6-5d4e-96d0-f262df5d01fd"
+POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+ParticleFilters = "c8b314e2-9260-5cf8-ae76-3be7461ca6d0"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+TikzPictures = "37f6aa50-8035-52d0-81c2-5a1d08754b2d"
+POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
+
+[extras]
+POMDPModels = "355abbd5-f08e-5560-ac9e-8b5f2592a0ca"
+POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["POMDPModels", "POMDPPolicies", "Test"]
