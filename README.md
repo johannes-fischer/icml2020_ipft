@@ -131,7 +131,7 @@ wm | weight memory
 ### Information Measures
 Variable name | Meaning
 ---|---
-im, imf | information measure
+im, ifm | information measure
 ib |  belief together with its information
 i | information
 e | entropy
