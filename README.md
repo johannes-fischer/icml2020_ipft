@@ -1,6 +1,6 @@
 # Information Particle Filter Tree
 
-The code uses the JuliaPOMDP framework https://github.com/JuliaPOMDP/POMDPs.jl. All necessary packages are installed by following the setup instructions.
+The code uses the [JuliaPOMDP](https://github.com/JuliaPOMDP/POMDPs.jl) framework. All necessary packages are installed by following the setup instructions.
 
 ## Setup
 
