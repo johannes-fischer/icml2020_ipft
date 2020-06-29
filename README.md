@@ -1,5 +1,21 @@
 # Information Particle Filter Tree
 
+This repository contains the code for the publication
+
+```
+@inproceedings{fischer2020information,
+  title     = {Information Particle Filter Tree: An Online Algorithm for POMDPs with Belief-Based Rewards on Continuous Domains},
+  author    = {Johannes Fischer and {\"O}mer Sahin Tas},
+  booktitle = {Proceedings of the 37th International Conference on Machine Learning},
+  year      = {2020},
+  volume    = {119},
+  series    = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
+  address   = {Vienna, Austria},
+  month     = {July}
+}
+```
+
 The code uses the [JuliaPOMDP](https://github.com/JuliaPOMDP/POMDPs.jl) framework. All necessary packages are installed by following the setup instructions.
 
 ## Setup
