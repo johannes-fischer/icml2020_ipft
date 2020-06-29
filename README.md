@@ -2,6 +2,7 @@
 
 This repository contains the code for the publication
 
+> Johannes Fischer, Ömer Sahin Tas. Information Particle Filter Tree: An Online Algorithm for POMDPs with Belief-Based Rewards on Continuous Domains. In Proceedings of the 37th International Conference on Machine Learning (ICML), Vienna, Austria, July 2020. 
 ```
 @inproceedings{fischer2020information,
   title     = {Information Particle Filter Tree: An Online Algorithm for POMDPs with Belief-Based Rewards on Continuous Domains},
